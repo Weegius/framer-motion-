@@ -6,8 +6,8 @@ const GrayBox = ({ isVisible }) => {
   return (
     <>
       <motion.div
-        initial={{ opacity: 0,  }}
-        animate={{ opacity: 1,}}
+        initial={{ opacity: 0, width: 0 }}
+        animate={{ opacity: 1, width: "100%" }}
         transition={{ duration: 0.5, delay:2.3 }}
       >
         <Flex w={"600px"} h={"100.04%"} bg="gray.100">
