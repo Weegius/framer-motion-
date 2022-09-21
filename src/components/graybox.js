@@ -6,13 +6,12 @@ const GrayBox = ({ isVisible }) => {
   return (
     <>
       <motion.div
-        initial={{ opacity: 0, width: 0 }}
-        animate={{ opacity: 1, width: "100%" }}
-        transition={{ duration: 0.5, delay:2.3 }}
+        style={{ overflow: "hidden" }}
+        initial={{ x: "600px", opacity: 0 }}
+        animate={{ x: "0", opacity: 1 }}
+        transition={{ duration: 1, delay: 2.3 }}
       >
-        <Flex w={"600px"} h={"100.04%"} bg="gray.100">
-          
-        </Flex>
+        <Flex w={"600px"} h={"100.06%"} bg="gray.100"></Flex>
       </motion.div>
     </>
   );

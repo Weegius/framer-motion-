@@ -10,7 +10,7 @@ const Box = () => {
       }}
       transition={{ duration: 2 }}
     >
-      <Flex w={['400px', '700px', '800px', '1000px', '1500px', '1500px']} h={"100vh"} bg="red.500" justify={"right"} >
+      <Flex w={['400px', '700px', '800px', '1000px', '1500px', '1800px']} h={"100vh"} bg="red.500" justify={"right"}  >
         <GrayBox />
       </Flex>
     </motion.div>
