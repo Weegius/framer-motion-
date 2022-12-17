@@ -6,11 +6,12 @@ const Box = () => {
   return (
     <motion.div
       animate={{
-        scale: [1.5, 0.85],
+        scale: [1.5, 1],
       }}
       transition={{ duration: 2 }}
+      style={{width: "100%", height: "100%"}}
     >
-      <Flex w={['400px', '700px', '800px', '1000px', '1500px', '1800px']} h={"100vh"} bg="red.500" justify={"right"}  >
+      <Flex w={['400px', '700px', '800px', '100%', ]} h={"100%"} bg="#f74239" justify={"right"}  >
         <GrayBox />
       </Flex>
     </motion.div>
